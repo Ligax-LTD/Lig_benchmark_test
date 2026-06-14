@@ -1,0 +1,12 @@
+{
+  "key": [
+    "alicia_keys", "boho", "box_braids",
+    "butterfly_locs", "faux_locs", "flat_twist", "fulani_braids",
+    "invisible_locs", "island_twist", "lemonade_braids", "marley_twists",
+    "microlocs", "mini_twists", "passion_twists",
+    "ponytails", "puff", "soft_locs", "space_buns"
+  ],
+  "base": [
+    "braids", "cornrows", "crochet", "locs", "twist"
+  ]
+}

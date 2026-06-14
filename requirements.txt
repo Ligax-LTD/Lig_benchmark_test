@@ -1,0 +1,10 @@
+requests>=2.31
+anthropic>=0.100
+openai>=1.50
+google-genai>=1.0
+numpy>=1.26
+scikit-learn>=1.4
+pandas>=2.1
+python-dotenv>=1.0
+jupyter
+matplotlib
