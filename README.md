@@ -32,6 +32,7 @@ benchmark_test/
 ├── dataset.py           fetches dataset from Roboflow (no local download)
 ├── metrics.py           F1 and mAP computation
 ├── taxonomy.json        benchmark label taxonomy
+├── benchmark_documentation.pdf  full benchmark documentation
 ├── requirements.txt     Python dependencies
 ├── models/
 │   ├── lig_vision.py    Lig Vision API client
@@ -78,7 +79,7 @@ GOOGLE_API_KEY=<your Google API key>
 GOOGLE_MODEL=gemini-2.5-flash
 ```
 
-The Roboflow API key for this dataset is available from the dataset page at https://app.roboflow.com/testing-workspace-htshl/woman-hairstyles-bevyz/browse.
+The Roboflow API key for this dataset is available from the dataset page at https://universe.roboflow.com/testing-workspace-htshl/woman-hairstyles-bevyz
 
 `LIG_VISION_URL` is intentionally omitted. Lig Vision results are pre-computed in `results/lig_vision.json`. The inference endpoint is not published; individual predictions can be verified at https://www.ligaxai.com/playground.
 
@@ -116,7 +117,7 @@ The Ligax AI playground at https://www.ligaxai.com/playground uses the same mode
 
 To verify a specific prediction:
 
-1. Open the dataset at https://app.roboflow.com/testing-workspace-htshl/woman-hairstyles-bevyz/browse
+1. Open the dataset at https://universe.roboflow.com/testing-workspace-htshl/woman-hairstyles-bevyz
 2. Download any image from the test split
 3. Upload it to the playground
 4. Compare the returned labels with the corresponding entry in `results/lig_vision.json`
@@ -129,7 +130,7 @@ The benchmark dataset consists of 314 labelled images of Afro-Caribbean protecti
 
 The dataset is fetched live from Roboflow at evaluation time. No local download is required or performed, ensuring no data leakage into the evaluation process.
 
-Dataset: https://app.roboflow.com/testing-workspace-htshl/woman-hairstyles-bevyz/browse
+Dataset: https://universe.roboflow.com/testing-workspace-htshl/woman-hairstyles-bevyz
 
 ---
 
