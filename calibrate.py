@@ -177,6 +177,27 @@ def main():
         print(f'    "{cls}":{" " * (10 - len(cls))}{t},')
     print("}")
 
+    # write OOF metrics back to lig_vision.json
+    data["metrics"]["key"]["macro_f1"]   = oof_key_f1
+    data["metrics"]["key"]["per_class"]  = oof_key_pc
+    data["metrics"]["base"]["macro_f1"]  = oof_base_f1
+    data["metrics"]["base"]["per_class"] = oof_base_pc
+    data["calibration"] = {
+        "method": "5-fold cross-validation",
+        "description": (
+            "Per-class thresholds are the mean of fold-specific optima calibrated on k-1 folds. "
+            "Reported F1 metrics are out-of-fold (OOF): each image is evaluated using thresholds "
+            "calibrated on the other four folds, so no image appears in its own calibration set. "
+            "mAP is threshold-independent and is computed on all predictions."
+        ),
+        "k": K,
+        "seed": SEED,
+        "min_cal_positives": MIN_CAL_POS,
+    }
+    with open(RESULTS_PATH, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"\nresults/lig_vision.json updated with OOF metrics.")
+
 
 if __name__ == "__main__":
     main()
