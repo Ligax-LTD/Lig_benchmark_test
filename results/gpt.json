@@ -1,0 +1,5949 @@
+{
+  "model": "gpt",
+  "evaluated_at": "2026-06-14",
+  "n_images": 314,
+  "n_errors": 0,
+  "metrics": {
+    "n_key_images": 283,
+    "key": {
+      "macro_f1": 0.411,
+      "map": null,
+      "per_class": {
+        "alicia_keys": {
+          "f1": 0.0,
+          "ap": null,
+          "support": 2
+        },
+        "boho": {
+          "f1": 0.8,
+          "ap": null,
+          "support": 79
+        },
+        "box_braids": {
+          "f1": 0.6829,
+          "ap": null,
+          "support": 52
+        },
+        "butterfly_locs": {
+          "f1": 0.1667,
+          "ap": null,
+          "support": 7
+        },
+        "faux_locs": {
+          "f1": 0.7033,
+          "ap": null,
+          "support": 43
+        },
+        "flat_twist": {
+          "f1": 0.375,
+          "ap": null,
+          "support": 3
+        },
+        "fulani_braids": {
+          "f1": 0.5238,
+          "ap": null,
+          "support": 14
+        },
+        "invisible_locs": {
+          "f1": 0.0,
+          "ap": null,
+          "support": 2
+        },
+        "island_twist": {
+          "f1": 0.3333,
+          "ap": null,
+          "support": 5
+        },
+        "lemonade_braids": {
+          "f1": 0.0,
+          "ap": null,
+          "support": 1
+        },
+        "marley_twists": {
+          "f1": 0.4944,
+          "ap": null,
+          "support": 61
+        },
+        "mini_twists": {
+          "f1": 0.6154,
+          "ap": null,
+          "support": 21
+        },
+        "passion_twists": {
+          "f1": 0.2308,
+          "ap": null,
+          "support": 9
+        },
+        "ponytails": {
+          "f1": 0.3,
+          "ap": null,
+          "support": 12
+        },
+        "puff": {
+          "f1": 0.9189,
+          "ap": null,
+          "support": 18
+        },
+        "soft_locs": {
+          "f1": 0.3421,
+          "ap": null,
+          "support": 17
+        },
+        "space_buns": {
+          "f1": 0.5,
+          "ap": null,
+          "support": 2
+        }
+      }
+    },
+    "n_base_images": 278,
+    "base": {
+      "macro_f1": 0.5717,
+      "map": null,
+      "per_class": {
+        "braids": {
+          "f1": 0.918,
+          "ap": null,
+          "support": 94
+        },
+        "cornrows": {
+          "f1": 0.0909,
+          "ap": null,
+          "support": 5
+        },
+        "crochet": {
+          "f1": 0.2857,
+          "ap": null,
+          "support": 6
+        },
+        "locs": {
+          "f1": 0.7746,
+          "ap": null,
+          "support": 75
+        },
+        "twist": {
+          "f1": 0.7892,
+          "ap": null,
+          "support": 109
+        }
+      }
+    }
+  },
+  "predictions": [
+    {
+      "filename": "IMG_7096_JPG.rf.44f0c0b168c774ff7f2322225372d9ee.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "ponytails",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "cornrows",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 10342.4
+    },
+    {
+      "filename": "false_22587087082-c-us_3A593C9B4541D575A0B5_jpeg.rf.bf3aac76c3e810021fe97cb2cd32ba18.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "locs",
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5255.7
+    },
+    {
+      "filename": "false_22509090600-c-us_5EB7674F651319875818_jpeg.rf.54ce981175bd5e7e7c5b7b41bbfac505.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7696.3
+    },
+    {
+      "filename": "false_22508593178-c-us_0E00B88CAC38C5272F2BB1C8885A0245_jpeg.rf.94d92680cdf34ac6df99b65dfd023fec.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8030.7
+    },
+    {
+      "filename": "false_22577133494-c-us_4590C1D3158DCB920EEE98FED8A01750_jpeg.rf.adc4379fe062c86340b0a3acbb4ce035.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 2963.6
+    },
+    {
+      "filename": "true_22589590981-c-us_4B80FA5D8917401ADABC192751DFA54D_jpeg.rf.17ca3a73e10008add0e325a1dff306db.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8741.2
+    },
+    {
+      "filename": "false_22508165607-c-us_50F7433EA87828953CE981A42E8E3250_jpeg.rf.0fca5cf10aa5151f5761c6069cab49d8.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6054.8
+    },
+    {
+      "filename": "false_22588144835-c-us_0A4DA58F22B4DA795BB371ED943C1B44_jpeg.rf.db5022b4cfe38b58f0c18bb8d7fb9bac.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5697.6
+    },
+    {
+      "filename": "true_22507246057-c-us_3704179BD114A3889B9375A47198C38A_jpeg.rf.1f3e18720d45f622d8e2586ded1980b4.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9386.7
+    },
+    {
+      "filename": "true_22558411224-c-us_5E981FD66100A54E8616634046250CDB_jpeg.rf.b74c2cd05c19835ebb580fd3fcf437a8.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists",
+        "ponytails"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7843.2
+    },
+    {
+      "filename": "IMG_8342_JPG.rf.8045fb1a9b0c2e86801c9f9e364881dc.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4651.2
+    },
+    {
+      "filename": "false_22574025858-c-us_DAE6B56FE17E0469E3A1D8DBED40C099_jpeg.rf.cd707f5ba3de1232ce3973b0a17de5c9.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7281.1
+    },
+    {
+      "filename": "false_22549986679-c-us_3AECB780FD6C5214178B_jpeg.rf.524fe4e6869948117338f61381e41ff4.jpg",
+      "key_gt": [
+        "flat_twist"
+      ],
+      "base_gt": [
+        "cornrows",
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6174.4
+    },
+    {
+      "filename": "false_22559001494-c-us_5E4ADE556F0E132625DB_jpeg.rf.5a1cce013ea59ade66d0ef8f1a65b3a2.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3758.3
+    },
+    {
+      "filename": "false_22567370364-c-us_91FB1297CBEF37DEB10108B58726AFA1_jpeg.rf.a5ae34e00e200753f29cec8ff9987ab8.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3935.5
+    },
+    {
+      "filename": "IMG_4017_JPG.rf.5258f1ff42d86394e697e64caf69e306.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "ponytails",
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3400.5
+    },
+    {
+      "filename": "Soft-Locs-36_-23-_png.rf.ca6e688be60ade89c517ae333825b443.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3613.7
+    },
+    {
+      "filename": "IMG_8206_JPG.rf.ed5679356942c61e6b906c317b41a940.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5409.4
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A2CDD93796FF4C7DF50_2250703785556-c-us_jpeg.rf.aaf4ae3abfe1b0f7f190442c3f2d3b3f.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3531.7
+    },
+    {
+      "filename": "false_22507933945-c-us_A93B1AD62EBEE4078AD322E6B472122E_jpeg.rf.9939f5cde8a46beaeadd356af43f4e5b.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3953.8
+    },
+    {
+      "filename": "IMG_2102_JPG.rf.65c72174f435af555b48d7bef9dcf94f.jpg",
+      "key_gt": [
+        "ponytails"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "ponytails"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 2769.4
+    },
+    {
+      "filename": "false_22557828541-c-us_D466FB1E87C6660E2713E637A326C7C3_jpeg.rf.fa7e9f58347bcc36a7f396872dab5b28.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5986.5
+    },
+    {
+      "filename": "false_22549986679-c-us_3A84B53BE5FC2D5CA36B_jpeg.rf.ba6ad16326bfd733b822a5346313e7a6.jpg",
+      "key_gt": [
+        "flat_twist"
+      ],
+      "base_gt": [
+        "cornrows",
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3155.1
+    },
+    {
+      "filename": "IMG_5851_JPG.rf.b4a5566d5d129f7b1c58e2577459cdf6.jpg",
+      "key_gt": [
+        "butterfly_locs"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8209.8
+    },
+    {
+      "filename": "IMG_0220_JPG.rf.19c5b5792f6ccae46d1180fd3b67f62b.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4141.4
+    },
+    {
+      "filename": "false_22589666207-c-us_3A4F2D2109F1E0F41C29_jpeg.rf.a83cded7a8b435ecfc27e8a4a028767d.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4151.6
+    },
+    {
+      "filename": "IMG_1270_PNG.rf.f903160168b5bc2bc2f8061fdc8bbad5.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4495.0
+    },
+    {
+      "filename": "true_22507622623-c-us_C913DA032B7D2ABE8B296D254B920FE2_jpeg.rf.74cfa60ddaed076d6c8281df19bcf8e7.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6381.3
+    },
+    {
+      "filename": "true_22557290500-c-us_75A850F17CE94CB2D8EB272FBCB4DB82_jpeg.rf.fc7c858c2b852c0a2d93cdfa772c93fb.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5942.2
+    },
+    {
+      "filename": "IMG_0191_JPG.rf.c151758bf55b91db591858c4329b3e65.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4637.6
+    },
+    {
+      "filename": "true_22507622623-c-us_C913DA032B7D2ABE8B296D254B920FE2_jpeg.rf.46b1324e140df90950e5b870141c9b91.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8064.9
+    },
+    {
+      "filename": "IMG_1895_JPG.rf.0e6f2c3dd9546580e6b997766d168d10.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5441.5
+    },
+    {
+      "filename": "false_22584279901-c-us_44BB8C9C1D4B6CC3DDB25033B2F1FAFA_jpeg.rf.058eb64a8ae30cc02b1c402b57d44948.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7875.5
+    },
+    {
+      "filename": "IMG_1501-HEIC_png.rf.dadeac01625d973e1ff0bd3dcad386d3.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7239.9
+    },
+    {
+      "filename": "false_22597404457-c-us_5762783E15EB95F43E38FFDDA1C86122_jpeg.rf.5fcd3cee6da39b942261c19cd013018e.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6942.6
+    },
+    {
+      "filename": "false_22509264413-c-us_2D488B8FF9BCDBEC6FA3F75FF5F70426_jpeg.rf.d56bc236f1bd20ed455e36bf5e3bfbfd.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3191.7
+    },
+    {
+      "filename": "IMG_7660_JPG.rf.c2b605d7a8a117197b1131b836c716d2.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8366.8
+    },
+    {
+      "filename": "false_22558555890-c-us_3A80792096BD267001A9_jpeg.rf.313c10ca2d02c5a657e77eced7efde79.jpg",
+      "key_gt": [
+        "alicia_keys"
+      ],
+      "base_gt": [
+        "cornrows"
+      ],
+      "key_pred": [
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4528.0
+    },
+    {
+      "filename": "Soft-Locs-36_-34-_png.rf.e3dd4a5cc0480c98bea59afd0ff228c0.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6136.4
+    },
+    {
+      "filename": "IMG_3873_PNG.rf.93e0d6bbcf2814d44a664a8bcb6e925d.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3721.4
+    },
+    {
+      "filename": "false_22588904523-c-us_57562AB281893A260D1CBD053B28A3DD_jpeg.rf.a582ada48d9e3e9851d27713c86da4d4.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4899.7
+    },
+    {
+      "filename": "false_22584279901-c-us_1BE4F3AE5CA84758B67354EB30C35DCD_jpeg.rf.ae6cb3553a63a680bd9b9943526e3c9e.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4558.8
+    },
+    {
+      "filename": "IMG_6847_JPG.rf.f34c78c453750f700ad9998d86353a4a.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5167.4
+    },
+    {
+      "filename": "IMG_1424_JPG.rf.e71f1ffbdcea4245eab3a98421194240.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3620.2
+    },
+    {
+      "filename": "true_22557290500-c-us_18935732F180B5DBDDAADA2F37828CFD_jpeg.rf.fedfc94f7c869973de2a10e7c2cdf738.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4503.5
+    },
+    {
+      "filename": "IMG_8734_JPG.rf.6a768aad9c90eff214b199212659972c.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4567.5
+    },
+    {
+      "filename": "false_22507897103-c-us_7CD3E297DA39F0EA539714262218FA01_jpeg.rf.fab7ec8753598c345f23f6bc01e7fd40.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3870.5
+    },
+    {
+      "filename": "false_22504504093-c-us_17C77240EAB3865FB998F7E8250F4663_jpeg.rf.c014d42feb1e73780ddd724ad7840985.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4855.1
+    },
+    {
+      "filename": "false_22508479366-c-us_C462EE5712A27277C638301BECC347B8_jpeg.rf.f1c55be285a877ea7cd10f9c042697e8.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "island_twist",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5608.6
+    },
+    {
+      "filename": "false_22579281355-c-us_23071E17F84E61231834A44606C2C776_jpeg.rf.49fb40ba595385088047f6148ee2b02a.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5277.7
+    },
+    {
+      "filename": "false_22501884033-c-us_3AECCDB7C21E964D2778_jpeg.rf.1f1b00cf5dbccf24a8933ea0d7498392.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7063.8
+    },
+    {
+      "filename": "false_22557888258-c-us_0A92B28AB15EEC9C1CD2C6609C4BC24D_jpeg.rf.88c6f0952912ea5d0bb6088863e3b623.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4608.4
+    },
+    {
+      "filename": "false_22503057013-c-us_1F5022D7C6B825655D66BD4F65A8D88A_jpeg.rf.c4c4275625c8e8dc220b444b9df91368.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists",
+        "ponytails"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4587.9
+    },
+    {
+      "filename": "false_22579277466-c-us_3AB5B57DB8C237224517_jpeg.rf.4dd10f5b349b692018755de5791cab67.jpg",
+      "key_gt": [
+        "invisible_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "ponytails"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5267.1
+    },
+    {
+      "filename": "false_22544710232-c-us_3ADC8FDE40B292C42709_jpeg.rf.22b6039c3affebd362b5247871cfc0e2.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4499.4
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A4DAB6A308DB0BB48D5_2250703785556-c-us_jpeg.rf.7e67979a56621b0aa58d4196389fa39a.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6500.1
+    },
+    {
+      "filename": "false_22501344664-c-us_52657E1D8EE7588D10F51A7EE238F1D5_jpeg.rf.69bfc8784796c862fccb1f98617333de.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4993.0
+    },
+    {
+      "filename": "IMG_4535_PNG.rf.eb2213f48550c5bc79b65b0f53ba1c56.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4168.8
+    },
+    {
+      "filename": "IMG_1099_PNG.rf.6f7e89daaec976485db6772f3a2d843d.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5821.6
+    },
+    {
+      "filename": "IMG_8200_JPG.rf.947e01346921f7e5401280153ded519e.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7029.8
+    },
+    {
+      "filename": "IMG_7662_JPG.rf.46e80fc8f904e3ad7a966d81c6744921.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9270.4
+    },
+    {
+      "filename": "IMG_3639_JPG.rf.9af64a38f1acba5aeb1721048974d95d.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff",
+        "ponytails"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5339.9
+    },
+    {
+      "filename": "false_22559454378-c-us_913834D167C4D654045DCD9BC3D7E17B_jpeg.rf.cebafd40afd55ce5bab363c5b5ef8e9f.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3233.0
+    },
+    {
+      "filename": "Soft-Locs-36_-1-_png.rf.1142feb5807fa663ab82b2a802494dc4.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6489.8
+    },
+    {
+      "filename": "true_2250716801303-c-us_900224F003119B4CEB10E56DE4F2B0D0_jpeg.rf.5946e30ab5c121e37cf38f3bdb1921fc.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4303.1
+    },
+    {
+      "filename": "false_22508332069-c-us_3AF86A1FADAB19760B11_jpeg.rf.f1abf682ebecd13f210bf3e215d6c130.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs",
+        "ponytails"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4388.8
+    },
+    {
+      "filename": "false_22540800779-c-us_AAECF90BAC620D9155F4768928A730B9_jpeg.rf.97457828bafa5cd9c932852a615f7c2a.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4611.3
+    },
+    {
+      "filename": "false_22501108379-c-us_CF17DA8AB394EED29A4633AC59B8F5B7_jpeg.rf.0eee36365f342685d9703d81f7656953.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6769.3
+    },
+    {
+      "filename": "IMG_6187_png.rf.eb9bc5f75a7d21cf5270db8f8c1fa8e8.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7047.6
+    },
+    {
+      "filename": "IMG_0176_JPG.rf.951753d9c5c1205b315ae4c6629d8c7b.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs",
+        "crochet"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7198.0
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3AAAE7DE4366B7B37B50_2250703785556-c-us_jpeg.rf.c76655cefd9f814b86362b4d2385a234.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5729.4
+    },
+    {
+      "filename": "Soft-Locs-36_-25-_png.rf.786a0da905ee90821c027f9768785134.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4169.8
+    },
+    {
+      "filename": "Soft-Locs-36_-2-_png.rf.a05ce9aec6db1c3b5df06220a95803fd.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6035.8
+    },
+    {
+      "filename": "true_2250715131613-c-us_81955877027CB6174BE528BEF0392159_jpeg.rf.b5e105ddd0d428f93a89273ee497b580.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4748.3
+    },
+    {
+      "filename": "IMG_1425_JPG.rf.df84a018860fb0fd5d4e241a256bbad6.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff",
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5213.1
+    },
+    {
+      "filename": "IMG_0224_JPG.rf.e605228f7ed5cd0f1212d5f42d6f91cb.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6214.8
+    },
+    {
+      "filename": "false_22507157664-c-us_3A9833E97C2AEA99802C_jpeg.rf.627835742a6ced30414a48db6faf5868.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "cornrows",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5826.1
+    },
+    {
+      "filename": "false_22558776414-c-us_3A11BDADCD218FD914B7_jpeg.rf.aab728d2539b99a65d3cb794f2d6ba94.jpg",
+      "key_gt": [
+        "fulani_braids",
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5323.1
+    },
+    {
+      "filename": "false_22508084858-c-us_BD4F28FBDABD76FC965C3F8347D620C3_jpeg.rf.d48202e1d5b293bb1bcc96f836d0289d.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5627.2
+    },
+    {
+      "filename": "false_22557622455-c-us_3A418425FF20021C2D41_jpeg.rf.30d61287dad71944c9cd121ff95eafef.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8852.8
+    },
+    {
+      "filename": "IMG_7433-HEIC_png.rf.d2709e75559dba255d71ba2a013a0e80.jpg",
+      "key_gt": [
+        "puff"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "puff"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8415.8
+    },
+    {
+      "filename": "false_22578276759-c-us_3A95AEF2B468A8B981A4_jpeg.rf.2b3301ece0b1d60a8fb081f289858cb1.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3368.8
+    },
+    {
+      "filename": "true_2250716801303-c-us_BCECF1C247A155E3D6BE5CDF99BC24B2_jpeg.rf.b1551eccff84ab0e3897b463464ff746.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5543.6
+    },
+    {
+      "filename": "false_2250507530829-c-us_3AF07E3DE360F46FEFF2_jpeg.rf.7498646220272b2f13b0f964dd440cbe.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "ponytails"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4500.1
+    },
+    {
+      "filename": "Soft-Locs-36_-2-_png.rf.adb51bbd2aece1c89e5978952ff9d13b.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5509.5
+    },
+    {
+      "filename": "IMG_1145_PNG.rf.56761f298501ba3a6f0282e5a4fb4949.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3852.5
+    },
+    {
+      "filename": "false_22574025858-c-us_49213EDC418A476D43D9186C688A014E_jpeg.rf.f12baac2887eb970b845255cd2dbbc1d.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "microlocs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3553.5
+    },
+    {
+      "filename": "IMG_6845_JPG.rf.e804b59c21703998852d9b8df7844694.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4052.5
+    },
+    {
+      "filename": "false_22549986679-c-us_3ACC0F9C2D5118514491_jpeg.rf.7e1548715edc72dbe93750ef9b79727b.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5863.0
+    },
+    {
+      "filename": "Soft-Locs-36_-8-_png.rf.f4cf3bf566d8ba3f46529a17b61eab50.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4533.0
+    },
+    {
+      "filename": "WhatsApp-Image-2025-03-25-at-9-47-38-PM-3-_jpeg.rf.5e8a83b11a580bd4eceb0a7ff9437c67.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs",
+        "boho"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5381.7
+    },
+    {
+      "filename": "Soft-Locs-36_-13-_png.rf.e29b9d3dd18fd46f420da1c81f8b7a36.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3956.6
+    },
+    {
+      "filename": "IMG_3299_PNG.rf.e01e7628e888b52e47dae6d3e1e28208.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6316.5
+    },
+    {
+      "filename": "false_22571239895-c-us_0351286EE2A22059E7A6E942A73529AB_jpeg.rf.48fd4722632ccd1e3fece8d52d1c19e2.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5469.6
+    },
+    {
+      "filename": "true_22557290500-c-us_92DB7CA110F8A3EF2DC0A22AC2E72C27_jpeg.rf.cdc25887dc4609aaa8dcd4ca0525653c.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8501.9
+    },
+    {
+      "filename": "IMG_0435_JPG.rf.f0c10b8ef079275b8854623683d1bbec.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3350.6
+    },
+    {
+      "filename": "IMG_1269_PNG.rf.3b263a94bcf8038598feeb0d5ce91359.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4214.2
+    },
+    {
+      "filename": "IMG_0217_JPG.rf.1401cb26aa18482e5b210e29477acd8f.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7532.8
+    },
+    {
+      "filename": "IMG_0125_JPG.rf.d86157eefccf148e2bf31b6f2b6e27ea.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9119.7
+    },
+    {
+      "filename": "IMG_1268_PNG.rf.b7d2db57a1cbcfca4f448159dea4d836.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "butterfly_locs",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6334.2
+    },
+    {
+      "filename": "IMG_1098_PNG.rf.a10bd36f77313b4c4bf1ced50865bdba.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6207.1
+    },
+    {
+      "filename": "IMG_4967_JPG.rf.8f4248f606efc0f6d70fbae2b1b8c6ab.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4717.3
+    },
+    {
+      "filename": "false_22547045242-c-us_0570224E1845ECF93C290F19904C277C_jpeg.rf.08fa36836bfbfb083728a449df4b1cfc.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "lemonade_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4569.0
+    },
+    {
+      "filename": "IMG_8195_JPG.rf.3f866be986ec0fb68564d3cea1ddcf45.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6161.2
+    },
+    {
+      "filename": "IMG_1147_PNG.rf.9d87b8715bb383322341e667a88047f6.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6822.2
+    },
+    {
+      "filename": "false_22573036926-c-us_F86EB6B96519397CD3D646C38F09D25A_jpeg.rf.740dd92ccb4576af2f9ce69f3ecbaab4.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5431.3
+    },
+    {
+      "filename": "false_22557802813-c-us_B693CCBD31A0AE552D295E5E40BA862C_jpeg.rf.011194666a418d50c5694fbc5ad07494.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5897.0
+    },
+    {
+      "filename": "false_22577648037-c-us_7A3A649CF6D7DC45362A2879888197B0_jpeg.rf.9efc391a5db9bd1d1e13f3d4ea02ccb0.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7071.6
+    },
+    {
+      "filename": "IMG_4541_PNG.rf.a5c8cd85335735d02a4cdb53e37679a1.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6238.3
+    },
+    {
+      "filename": "IMG_5466-HEIC_png.rf.00640a0bc86d7baf82c8536ea3e0db11.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 10146.7
+    },
+    {
+      "filename": "Soft-Locs-36_-26-_png.rf.552274f07f26d3d1b3275025ff86363b.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6470.9
+    },
+    {
+      "filename": "IMG_8205_JPG.rf.be4f1f82c1d3c68867ce473c9bca152d.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4534.0
+    },
+    {
+      "filename": "IMG_0406_PNG.rf.e9242de7fc52dcae240d4f3e07a23ad6.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5755.2
+    },
+    {
+      "filename": "IMG_3589_PNG.rf.47b36b2d0d9712cac49edf262c53f2dc.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "ponytails",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "cornrows",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5972.7
+    },
+    {
+      "filename": "false_22557125854-c-us_3AF0DBD241C1B300F01F_jpeg.rf.2ae675f94cb406f3eb2d3dfc2449e06d.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4147.8
+    },
+    {
+      "filename": "IMG_0219_JPG.rf.c0d18a5b25ce561406fa1385c1b8e951.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3913.8
+    },
+    {
+      "filename": "IMG_0126_JPG.rf.cf30073652b4fbe75f84a2c4d3699dfe.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5574.9
+    },
+    {
+      "filename": "IMG_2801_PNG.rf.d594961bf019fc744c664a43083d243e.jpg",
+      "key_gt": [
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6529.2
+    },
+    {
+      "filename": "IMG_0135_PNG.rf.e833acb563a73e1faf6d9a84ee13e519.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5066.0
+    },
+    {
+      "filename": "false_22501344664-c-us_D83AE8AA9FCAAE196E74EA9346F680B6_jpeg.rf.d0ceab4f934b7edcaf79e1c4d1d4b57b.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9704.9
+    },
+    {
+      "filename": "IMG_6719_JPG.rf.16e6d3264c8ef4c40a8c2b679f9b9865.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3013.5
+    },
+    {
+      "filename": "false_22557802813-c-us_4D73D5C9428BEF5058783E839D8153CD_jpeg.rf.76d84eec1ce1bb976b3a3b1f81cfbbc2.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4227.1
+    },
+    {
+      "filename": "IMG_5227-HEIC_png.rf.e2e5ec9e9b3be5c73b954a599ac65ad6.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "ponytails"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6026.6
+    },
+    {
+      "filename": "false_22508593178-c-us_9A311C1B538BEBA072EDCD966A53C893_jpeg.rf.462b8a69d1e6c7a98e45a04f9239d699.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5065.3
+    },
+    {
+      "filename": "IMG_0222_JPG.rf.fb95ef05c6b8020f34e2c90bcd476fe4.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3022.8
+    },
+    {
+      "filename": "IMG_7435-HEIC_png.rf.4bd0de4740e298abbb49a6af19f2a751.jpg",
+      "key_gt": [
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "flat_twist",
+        "puff"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5372.7
+    },
+    {
+      "filename": "IMG_8732_JPG.rf.5dbb36b47304b462af2c7ee1436b3786.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4751.7
+    },
+    {
+      "filename": "IMG_0204_JPG.rf.a30e00135c4d17f5bf16b522f9bb7c4b.jpg",
+      "key_gt": [
+        "marley_twists",
+        "invisible_locs"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6769.6
+    },
+    {
+      "filename": "false_22508084858-c-us_9C799F35DD79C60FD82A368782C1E8BF_jpeg.rf.bd61bad2e43eca9b9e8c0514593dc8d5.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6606.8
+    },
+    {
+      "filename": "1D2361B0-6B05-4598-A4B9-F026D37F2615_jpg.rf.be354cf1ebe0d3fdede579b8dcab760e.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4588.3
+    },
+    {
+      "filename": "false_22502933341-c-us_3AA0C3E044BF6A68C813_jpeg.rf.ed5a860f7c3647548b4a59e662b29893.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9582.3
+    },
+    {
+      "filename": "true_22577761893-c-us_6BCBF42938C0586A10DCB71A91585884_jpeg.rf.bc6104bcf2aeecfa9c9b8cbe06e4f64a.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "boho",
+        "butterfly_locs",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6174.2
+    },
+    {
+      "filename": "IMG_8203_JPG.rf.275957131fa98019a737bf4405b7cc97.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5005.3
+    },
+    {
+      "filename": "false_22567033526-c-us_6C8B89F55ED791DD0D9AAE8F04D32BBE_jpeg.rf.2cac1193ea36247f165af6e9ae7cb541.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 2726.3
+    },
+    {
+      "filename": "IMG_3586_PNG.rf.c4e9f0ba067d808fe7fb06581d150d39.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7024.7
+    },
+    {
+      "filename": "IMG_7079-HEIC_png.rf.7dad6ae2d608340f0be17c1ff4490165.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "butterfly_locs",
+        "faux_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 10635.5
+    },
+    {
+      "filename": "IMG_5463-HEIC_png.rf.1233955ec8a7b3ae679e0496c359b0f7.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "butterfly_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6894.0
+    },
+    {
+      "filename": "IMG_4544_PNG.rf.8cb1c3ef33244581462eb2ce68d3db9f.jpg",
+      "key_gt": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5855.8
+    },
+    {
+      "filename": "IMG_4540_PNG.rf.ca6074fbcc4f630ad722ac69f142d428.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5022.9
+    },
+    {
+      "filename": "IMG_7078-HEIC_png.rf.0bcaa9a711e2412a4c3bd73bf6be26e9.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 11048.0
+    },
+    {
+      "filename": "IMG_3588_PNG.rf.c79e2f39b884247c8549b2ab98ea088e.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7455.6
+    },
+    {
+      "filename": "Soft-Locs-36_-17-_png.rf.d82d0f99ff3848af0260d47f1b0f6581.jpg",
+      "key_gt": [
+        "island_twist"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "boho",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6721.3
+    },
+    {
+      "filename": "false_22567033526-c-us_3A396B49C32A309DDC2F505316587EFC_jpeg.rf.5cc28c563f6c518afc94f54e5bd1a36a.jpg",
+      "key_gt": [
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3124.5
+    },
+    {
+      "filename": "IMG_5465-HEIC_png.rf.abaf5ebd347f4ddfa3f51b8f9936e812.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists",
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9441.4
+    },
+    {
+      "filename": "IMG_8338_JPG.rf.a5421ebb174a9300775b9e300ce1b7bd.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3590.9
+    },
+    {
+      "filename": "IMG_5119_PNG.rf.707c15393ba10cfa7cda0da8daf27d87.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs",
+        "faux_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6372.7
+    },
+    {
+      "filename": "true_22577761893-c-us_D10284C9928012A4951347BC8C4FFFD9_jpeg.rf.5c518d74559794c56f51eb1379732b06.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4796.0
+    },
+    {
+      "filename": "WhatsApp-Image-2025-03-25-at-9-47-37-PM-2-_jpeg.rf.ad6221eea28f93bf47e7fad651019b10.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6509.1
+    },
+    {
+      "filename": "Soft-Locs-36_-7-_png.rf.350630923e90062c02469ea497f9c8bd.jpg",
+      "key_gt": [
+        "island_twist"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4716.9
+    },
+    {
+      "filename": "Soft-Locs-36_-27-_png.rf.cf2db59f3a4c1421b36809907c1dc741.jpg",
+      "key_gt": [
+        "island_twist"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "boho",
+        "island_twist",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5917.7
+    },
+    {
+      "filename": "IMG_6846_JPG.rf.4db6e51f8a96a00096f663134e420c73.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4784.2
+    },
+    {
+      "filename": "IMG_7069-HEIC_png.rf.dc1c4f2c805733a8ed3ca942ac60236d.jpg",
+      "key_gt": [
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6207.6
+    },
+    {
+      "filename": "false_22577722410-c-us_2A3F2D8818E8431BA403F612C0BD9B83_jpeg.rf.c9b1b6b1ca68d1a381f1d98990afbef5.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists",
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6322.0
+    },
+    {
+      "filename": "IMG_8202_JPG.rf.825952d7fa8f108a63183cc72b6d50cd.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3666.1
+    },
+    {
+      "filename": "IMG_7095_JPG.rf.33d50e6927ac4c9110bae09ea32e146a.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6361.9
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A6D87172C0DFCE1290F_2250703785556-c-us_jpeg.rf.dd66851273e411a4eaae4fb5aa892f10.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3685.5
+    },
+    {
+      "filename": "IMG_6188_png.rf.9074d6864d6f1386ef61774a271bdbe3.jpg",
+      "key_gt": [
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7407.7
+    },
+    {
+      "filename": "IMG_1097_PNG.rf.7bb96e1d38a094d1009a917eff2b4bce.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4334.8
+    },
+    {
+      "filename": "true_22508362925-c-us_25CD43CA0EEC3A876A22F875DF476F21_jpeg.rf.251fcf02863474fbc14c03ce15c2fa88.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs",
+        "crochet"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4662.7
+    },
+    {
+      "filename": "false_22507897103-c-us_475DB8D79D9610223331763B31BC8270_jpeg.rf.c8c592a2378c3cd3bf11aa0329bca485.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "crochet",
+        "braids"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3955.1
+    },
+    {
+      "filename": "IMG_5854_JPG.rf.7d0018accf0973be40474b39ce39c284.jpg",
+      "key_gt": [
+        "butterfly_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4737.9
+    },
+    {
+      "filename": "Soft-Locs-36_-1-_png.rf.09b04077ac341d8d0ad95a2a3b8e6f83.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3754.9
+    },
+    {
+      "filename": "IMG_0346_JPG.rf.0eefa13da9cf9702add53019e6d1d1a5.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs",
+        "crochet"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "crochet",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5626.9
+    },
+    {
+      "filename": "Soft-Locs-36__png.rf.36464c6dc19be04a6bf9f426b7ec4ea4.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4735.2
+    },
+    {
+      "filename": "false_22587575042-c-us_83C8878273AD55FE8CB45B76AEB5F41C_jpeg.rf.90dadc714a0845ec49d0bca7b503bbbc.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8628.9
+    },
+    {
+      "filename": "IMG_6721_JPG.rf.3672d990a895121873a34f72c169b72f.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5942.3
+    },
+    {
+      "filename": "IMG_8208_JPG.rf.b4ca7ef90f4aa21487f0c343e42222f8.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 2905.5
+    },
+    {
+      "filename": "IMG_5464_png.rf.84b5cdf656ac31d767fe9ee9e5b5dd9d.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists",
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 11456.6
+    },
+    {
+      "filename": "false_22509159454-c-us_E870B5FB10844C104EA6E31BAC14A6F1_jpeg.rf.7d162c18bf92791692dfc11f84ad8c6b.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3765.7
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3AD5F53F854437B07A4A_2250703785556-c-us_jpeg.rf.c309b87d5c63273c4dac5879e2e8725d.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7255.8
+    },
+    {
+      "filename": "false_22579725161-c-us_A8DC2EE41076D637700F0B30B00980CE_jpeg.rf.4cf1468b224eff677d40ba6fead9f8c6.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3417.7
+    },
+    {
+      "filename": "IMG_1426_JPG.rf.9ba33a1c5a9afa4be282390baa9525af.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "ponytails",
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3880.7
+    },
+    {
+      "filename": "Soft-Locs-36_-30-_png.rf.af0ad81a62842befc6cb0de5913cb517.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6270.1
+    },
+    {
+      "filename": "IMG_5853_JPG.rf.47bb9ab665944e52af0bd5966a048c4c.jpg",
+      "key_gt": [
+        "butterfly_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists",
+        "island_twist"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7721.6
+    },
+    {
+      "filename": "false_22550536677-c-us_9BCC1F00A43C5BBB576983341EB03E11_jpeg.rf.29cf925c44fc74020c7f830a179833cf.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7085.2
+    },
+    {
+      "filename": "IMG_0350_JPG.rf.c27b5cf5c372c29335fe679540eb15da.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs",
+        "ponytails"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3217.7
+    },
+    {
+      "filename": "IMG_3297_PNG.rf.7ac521e3c5c0a8da58f8c5ed84ab611d.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4233.9
+    },
+    {
+      "filename": "false_22577849841-c-us_15ECE3792594952FB63321F2B837614B_jpeg.rf.1c89c065df3189feb7493429ca6fcd0a.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5484.4
+    },
+    {
+      "filename": "false_22557802813-c-us_8AB186649F5C65F1E105E8CC46E407EC_jpeg.rf.649ab9f07e8dc46467d7a5f3b6302fc6.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5831.2
+    },
+    {
+      "filename": "IMG_5228-HEIC_png.rf.d3b693b777080336155f0fd51855b51e.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "ponytails",
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6594.3
+    },
+    {
+      "filename": "false_22549986679-c-us_3ACC0F9C2D5118514491_jpeg.rf.88c45b356633ba7dd233de3e3f3ea1cd.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6849.2
+    },
+    {
+      "filename": "IMG_3878_PNG.rf.b31d60dcffc6327a169fb5d3a726f2ff.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7025.8
+    },
+    {
+      "filename": "Soft-Locs-36_-19-_png.rf.53f18642dbdacb319c5f6067778af513.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5345.6
+    },
+    {
+      "filename": "false_22508847340-c-us_3A5BCBFD8C2EA8CEC9F5_jpeg.rf.c015af0c6f39950842cbd96c5b6f0cf1.jpg",
+      "key_gt": [
+        "fulani_braids",
+        "lemonade_braids"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "island_twist"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9417.8
+    },
+    {
+      "filename": "IMG_0408_PNG.rf.4ac88ec20502b40d22a54ad87e106480.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4324.9
+    },
+    {
+      "filename": "IMG_2009_JPG.rf.2ad29e4b14b1756294a2668361ed32bb.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs",
+        "crochet"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7459.9
+    },
+    {
+      "filename": "false_22508634973-c-us_5928CBCCE61B8342B5E6A4E3E7760214_jpeg.rf.724219761acc675a527a7f226a8efea2.jpg",
+      "key_gt": [
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff",
+        "ponytails"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4804.5
+    },
+    {
+      "filename": "true_22508136615-c-us_67A9F3CAE516AF9DA8AD11CA330B6763_jpeg.rf.5eac649f5c0fddc5b28aa0a5210f0f0c.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists",
+        "ponytails"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6550.0
+    },
+    {
+      "filename": "IMG_6791-HEIC_png.rf.a7ae0505fb9ffa5236cc6e4cf8038e99.jpg",
+      "key_gt": [
+        "puff"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "puff"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6256.8
+    },
+    {
+      "filename": "IMG_5849_JPG.rf.104e67b95fb5c13170b2e81671c917fa.jpg",
+      "key_gt": [
+        "butterfly_locs",
+        "space_buns"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "island_twist",
+        "ponytails"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8418.9
+    },
+    {
+      "filename": "Soft-Locs-36_-png_png.rf.671f35019516e72f57315f25e63c56dd.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3680.9
+    },
+    {
+      "filename": "Soft-Locs-36_-12-_png.rf.7f896a4bdca646c156b968c4cdced693.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5143.0
+    },
+    {
+      "filename": "false_22598904467-c-us_ED8737AAA341C260A281023348C2ECD6_jpeg.rf.151b8da4b447fb99d92fc9dfefdff878.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists",
+        "ponytails",
+        "puff"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4633.7
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A6F5786A7870896920B_2250703785556-c-us_jpeg.rf.9e8b1c844c572abfadf503737ce46f73.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "cornrows",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6279.9
+    },
+    {
+      "filename": "false_22504973596-c-us_DB8DF15BB26467CAE05ED4269926CC43_jpeg.rf.6de4b865767db764843a30f3ea0ef279.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8599.4
+    },
+    {
+      "filename": "IMG_5852_JPG.rf.4add1796dbd7133fd7f9877a6f292777.jpg",
+      "key_gt": [
+        "butterfly_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7456.1
+    },
+    {
+      "filename": "false_22559001494-c-us_5E4ADE556F0E132625DB_jpeg.rf.469862b3f2a636193e3104c044ccc126.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3834.3
+    },
+    {
+      "filename": "false_2250713156114-c-us_4D67247E5480E9CFD8825226C89AAA53_jpeg.rf.631ed069c2c28fd36a09dd0fdf6d56a2.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4236.1
+    },
+    {
+      "filename": "false_22579691641-c-us_1999F7586CF14D0CC55CC5A2677068DC_jpeg.rf.42dfeeb9317ff14fa6de6116428bea03.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists",
+        "ponytails"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6098.4
+    },
+    {
+      "filename": "IMG_8196_JPG.rf.9b55e714d13f112eac603732eb2deb19.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6723.0
+    },
+    {
+      "filename": "IMG_0631_JPG.rf.6869a1b4e19e6a4ee7848bc2001e8faa.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7592.6
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3AC8346377448EBA3899_2250703785556-c-us_jpeg.rf.647dcdf0d3abcee1ae9bfd698c130780.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5963.7
+    },
+    {
+      "filename": "Soft-Locs-36__png.rf.b6ce752cea67e98b3952200baea8e8e5.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5370.6
+    },
+    {
+      "filename": "IMG_4545_PNG.rf.faf41acb28b57f5af2471a1eec014b05.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "boho",
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5663.4
+    },
+    {
+      "filename": "true_22578984381-c-us_7C858406146047F5D1951BA0AECE671D_jpeg.rf.fbefe4f5f0ad48e1f3a5f6ec9a311762.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5408.6
+    },
+    {
+      "filename": "IMG_7432-HEIC_png.rf.1338a6fe82b43710a987e584f8404ded.jpg",
+      "key_gt": [
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "flat_twist",
+        "puff"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9645.8
+    },
+    {
+      "filename": "IMG_0404_PNG.rf.a2b110b5b0ea73bc0dbca4dccf027e9d.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4425.6
+    },
+    {
+      "filename": "IMG_8339_JPG.rf.3c9887b6719ad8d2343952be1bba1c8e.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3651.1
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3AF88D1B2C4BFD5A85F3_2250703785556-c-us_jpeg.rf.1a874287805ca8940da4bd1f27e0ad6f.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4906.7
+    },
+    {
+      "filename": "false_22558552091-c-us_17A75091DEACC2834834BB81B5324307_jpeg.rf.6b0e02329c9ab56c21cca0b8f60af9f3.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6310.8
+    },
+    {
+      "filename": "false_22579570990-c-us_FB974CC871CB1A6C107376B0CB8EA863_jpeg.rf.5c5add331f9d52bf32848e81f5b78cf4.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8786.3
+    },
+    {
+      "filename": "false_22508227511-c-us_4D4B6816171AD550BD6B9EE2949A6E9D_jpeg.rf.846b0207036df03c86582c9fb908238c.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5614.1
+    },
+    {
+      "filename": "IMG_4865-HEIC_png.rf.a8669463a847273b3b05fab5c7beac93.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 11469.6
+    },
+    {
+      "filename": "Soft-Locs-36_-20-_png.rf.59c73f56ef10a30e1ea934c401370350.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4543.2
+    },
+    {
+      "filename": "false_22504973596-c-us_B8096DB686722BA82C37B6DFC1B6F7BB_jpeg.rf.5299d61bad100341256258cf2e6ba79c.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7820.5
+    },
+    {
+      "filename": "IMG_3587_PNG.rf.290a7c35665e4980c7cad79ccaecbfd0.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs",
+        "ponytails"
+      ],
+      "base_pred": [
+        "cornrows",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6944.7
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3AF15E1020A4EA22BBCB_2250703785556-c-us_jpeg.rf.2ad5564dabf52de3efb9f9adcfa22485.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4041.9
+    },
+    {
+      "filename": "IMG_5848_JPG.rf.e3c74205ebd60b08201a2f936145392b.jpg",
+      "key_gt": [
+        "butterfly_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5725.5
+    },
+    {
+      "filename": "IMG_5850_JPG.rf.e9b28f022120032f6db56a4d67e1de66.jpg",
+      "key_gt": [
+        "butterfly_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "butterfly_locs",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7532.3
+    },
+    {
+      "filename": "IMG_3875_PNG.rf.673dc125e93920496a36cd4699df113f.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 52121.0
+    },
+    {
+      "filename": "IMG_3296_PNG.rf.98308b2b3a05175001c458946a655ffc.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7198.8
+    },
+    {
+      "filename": "false_22588723267-c-us_6C376BB2AA8487211845B97A0F232ECD_jpeg.rf.88dbdeb75d3602b1925c12b412b17086.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5760.5
+    },
+    {
+      "filename": "FC05DD9A-F841-4B32-B7BC-2C522AECDA0C_jpg.rf.4b63a57c45e65d85b29a4bd04dff132b.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3553.6
+    },
+    {
+      "filename": "IMG_4539_PNG.rf.f28a3ef3a8f26cf28a393f11ad6aab17.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4959.5
+    },
+    {
+      "filename": "Soft-Locs-36_-2-_png.rf.bf0a3f7132cf1175d0e3c939101d36b0.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3843.8
+    },
+    {
+      "filename": "WhatsApp-Image-2025-03-25-at-9-47-38-PM-2-_jpeg.rf.0f78d2ad8360df33bf5f4a205d41cfad.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "soft_locs",
+        "faux_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4270.0
+    },
+    {
+      "filename": "IMG_0432_JPG.rf.9358505685a2434c672fc096af8936df.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6927.0
+    },
+    {
+      "filename": "IMG_0405_PNG.rf.8d62fdfbad51742b67cdecc210db3b0b.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4086.9
+    },
+    {
+      "filename": "false_22572502278-c-us_1BFD7F19B8F0AE890222745837D65992_jpeg.rf.15093f484a016e9f3cabe59ac11b6df3.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "marley_twists",
+        "ponytails"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5545.8
+    },
+    {
+      "filename": "IMG_2632_JPG.rf.ca49b85c303cfad9aafcdef2b365116e.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists",
+        "ponytails",
+        "puff"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7506.4
+    },
+    {
+      "filename": "false_22549986679-c-us_3A41060770499B415B23_jpeg.rf.8c804dbe1c5125dfe7601210611102fe.jpg",
+      "key_gt": [
+        "flat_twist"
+      ],
+      "base_gt": [
+        "cornrows",
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3232.7
+    },
+    {
+      "filename": "IMG_0474_PNG.rf.994a4a7400357fc8251016f33fab000f.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7769.5
+    },
+    {
+      "filename": "false_22558785818-c-us_B97685BD7028D59163998EE2EDCD5710_jpeg.rf.07e9a5ce6365d528dbbcd10a01c4d7ca.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "island_twist",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7495.8
+    },
+    {
+      "filename": "Soft-Locs-36_-16-_png.rf.aeddb609825d1849c1eb177349c8c712.jpg",
+      "key_gt": [
+        "island_twist"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6525.6
+    },
+    {
+      "filename": "Soft-Locs-36_-24-_png.rf.66f388d1b9a6f7a51d16f18db85423f3.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5814.8
+    },
+    {
+      "filename": "IMG_4537_PNG.rf.bb7b7341f359966c99d5a4825b2109cd.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6498.0
+    },
+    {
+      "filename": "true_22577722410-c-us_E7C435F67592BFE6FF4C58D0C83D9781_jpeg.rf.06fbe6d83b7a0dcbd75b09c4c9a7b1d4.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3681.6
+    },
+    {
+      "filename": "IMG_0574_JPG.rf.3d8998ef6423ac2d078abb19b19eb434.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6428.9
+    },
+    {
+      "filename": "false_22557888258-c-us_7835C3F7372790DB36CC0DF63E4B1339_jpeg.rf.cace3d553c46dbe55127f72bf113698b.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 68246.1
+    },
+    {
+      "filename": "Soft-Locs-36_-14-_png.rf.c37d06bca139baf47156232b86661927.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5881.8
+    },
+    {
+      "filename": "IMG_1421_JPG.rf.7584013704f94261dbbf9567e3487cce.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 2629.1
+    },
+    {
+      "filename": "false_22508136615-c-us_121F74BE34B9DBE152CDABF8BC671512_jpeg.rf.fb07c65f5eeb5a7c05a452b1781f41fc.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5709.3
+    },
+    {
+      "filename": "Soft-Locs-36_-3-_png.rf.ba7feb1676b64f883c6b5f3dbb51ccc0.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "ponytails",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "cornrows",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6301.2
+    },
+    {
+      "filename": "IMG_1100_PNG.rf.340d5c27fb1aff26f346e118d1ba65d2.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5555.2
+    },
+    {
+      "filename": "IMG_0347_JPG.rf.582318d7acf1e69767ee0aebe3e2f234.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8013.3
+    },
+    {
+      "filename": "Soft-Locs-36_-21-_png.rf.52ab737ae5eb8b33988221cad82ded47.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "boho",
+        "island_twist",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6178.6
+    },
+    {
+      "filename": "IMG_3881_PNG.rf.e5bcb1608305a4e79e0c861605ea27e9.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "soft_locs",
+        "faux_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7708.9
+    },
+    {
+      "filename": "false_22508362925-c-us_65E70CAEEE1530064955011BC8E07CD8_jpeg.rf.b531bb8069108f27c9559306f64a12da.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists",
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6224.0
+    },
+    {
+      "filename": "IMG_6803_JPG.rf.a3c90fd889cb645a900d3e60793b2636.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists",
+        "ponytails"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8895.3
+    },
+    {
+      "filename": "false_22557888258-c-us_0529C60F5E571B176AC8285B46C6E9D2_jpeg.rf.56e92523bf358e33608fba392ee9f993.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 2987.4
+    },
+    {
+      "filename": "false_22508136615-c-us_121F74BE34B9DBE152CDABF8BC671512_jpeg.rf.3c72f2f0f9b7c9e1823f683e38064c73.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "boho",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4722.3
+    },
+    {
+      "filename": "false_22588252908-c-us_3A345E5FABDCE3C33E51_jpeg.rf.f0feb1359b3b1fe0dca1b1f7350e8da6.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4367.6
+    },
+    {
+      "filename": "IMG_7077-HEIC_png.rf.03b669d140aefc56e1cffe8cc7b6da1a.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8599.6
+    },
+    {
+      "filename": "IMG_5437_JPG.rf.96d5c18d0e3c78cd0430cd6bb818d49e.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4007.2
+    },
+    {
+      "filename": "false_22508378295-c-us_4E23A35612CDD7F4A6C4E46732325C17_jpeg.rf.2c828e508eb3500f86e79581411ee7ed.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5156.1
+    },
+    {
+      "filename": "false_22557125854-c-us_3A445933BA6A6399EAC2_jpeg.rf.5b29ee038b7ba5eee314fa0ab1bc1960.jpg",
+      "key_gt": [
+        "fulani_braids"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5855.7
+    },
+    {
+      "filename": "false_22571239895-c-us_C49BED2F12A12CA0965C0C7FCFB88AA6_jpeg.rf.0df5b8e842e076392e3b7ccdfecb6b26.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 2939.2
+    },
+    {
+      "filename": "IMG_8731_JPG.rf.13e95d0a81c4a86d9ed76f122f92835b.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids",
+        "space_buns"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3968.4
+    },
+    {
+      "filename": "false_22509464861-c-us_3ACA4F085906B205AC25_jpeg.rf.e87034d5f630e4848f1afc4cae9feb43.jpg",
+      "key_gt": [
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5084.6
+    },
+    {
+      "filename": "IMG_7070-HEIC_png.rf.cf5c5d3ac14176041f8e3de0812b21e1.jpg",
+      "key_gt": [
+        "puff"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "ponytails",
+        "puff"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 13826.4
+    },
+    {
+      "filename": "false_22578240804-c-us_3F866DCF310F7E4E4D41C3BC1BA4725C_jpeg.rf.7d3acd450cd230f732500382a480edad.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists",
+        "ponytails"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6543.0
+    },
+    {
+      "filename": "IMG_8198_JPG.rf.0aa07df1decd216fc6d02da7138384cc.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3995.6
+    },
+    {
+      "filename": "false_22508522248-c-us_AB86C918E5AAA89F1717B5A987956B1C_jpeg.rf.ad3badcc1d974418108aafc679281ac0.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3187.3
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A5A6C160E63ABCD472E_2250703785556-c-us_jpeg.rf.7c7b7818b4b8ca9fd8ce0ce23976a41e.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "cornrows",
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6190.1
+    },
+    {
+      "filename": "false_22587087082-c-us_3A593C9B4541D575A0B5_jpeg.rf.41a4cb6f5c948f70fdb6cc316c384456.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6483.1
+    },
+    {
+      "filename": "false_22501387746-c-us_DD16FAF03EDF70E9B8EF7CC68FAA0DF3_jpeg.rf.a159b89969143798432c03ee72c92d95.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5090.7
+    },
+    {
+      "filename": "IMG_3880_PNG.rf.11e1fe71152c972725305a52f6d5e53a.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5671.5
+    },
+    {
+      "filename": "false_2250500323359-c-us_E684D129F49314E782F57CA232992B55_jpeg.rf.f1488f9f669488f23765d7e086cf816e.jpg",
+      "key_gt": [
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3876.4
+    },
+    {
+      "filename": "Soft-Locs-36_-11-_png.rf.79c3adab4ea841d5096d881f7519506d.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5051.9
+    },
+    {
+      "filename": "false_22584628260-c-us_95EB825FE47A8880B3B319A3FBC5A72E_jpeg.rf.b65a418f2cb2aed85e148129803ca09e.jpg",
+      "key_gt": [
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3494.7
+    },
+    {
+      "filename": "IMG_0566_JPG.rf.3fc57b532eaaa792d74d198159661feb.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6522.7
+    },
+    {
+      "filename": "false_22508907322-c-us_F5698BDC09D213D35CE8AAFE7C8CD612_jpeg.rf.8f3b0c3ecb5637976343788893bb93eb.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4507.4
+    },
+    {
+      "filename": "Soft-Locs-36_-3-_png.rf.84d840da93b8b534db5c7bdff12289d6.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4127.0
+    },
+    {
+      "filename": "true_22508165607-c-us_411A6C05D1997C45EED2B829E0AFE329_jpeg.rf.cebc3068e0d09e57e43bb74a671dfea9.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3916.3
+    },
+    {
+      "filename": "IMG_0425_JPG.rf.737e1db6d581968d81b253a69982cbfb.jpg",
+      "key_gt": [
+        "island_twist"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists",
+        "island_twist"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6885.5
+    },
+    {
+      "filename": "false_22558555890-c-us_3A5D8DC08BEAC488CEB7_jpeg.rf.1f090f1245c98bb709490f7fd4d9b106.jpg",
+      "key_gt": [
+        "alicia_keys"
+      ],
+      "base_gt": [
+        "cornrows"
+      ],
+      "key_pred": [
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3705.4
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A4BD5A566226902F8A2_2250703785556-c-us_jpeg.rf.2a6316b00069af99394980ac7bdce052.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "ponytails",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4591.3
+    },
+    {
+      "filename": "IMG_7097_JPG.rf.bbde000b282151b722c349a808ddf84e.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8919.5
+    },
+    {
+      "filename": "IMG_4543_PNG.rf.9cdaf54bd97fe531ea635337c2004f83.jpg",
+      "key_gt": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5322.0
+    },
+    {
+      "filename": "IMG_0134_PNG.rf.038ea8e4a520c5ee031c578ab352231d.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3664.2
+    },
+    {
+      "filename": "IMG_5156_PNG.rf.47a24eb70dc23291099734c545c1c014.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5853.4
+    },
+    {
+      "filename": "false_22587575042-c-us_EB59907859B8119CEF6A7B12A586CEC0_jpeg.rf.9e488c97453ea9ea17ed6ba186bfbd88.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4312.1
+    },
+    {
+      "filename": "Soft-Locs-36_-29-_png.rf.c2ebfba0d3aaf5b3dc91d2fb22d62798.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "boho",
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5734.3
+    },
+    {
+      "filename": "IMG_5602_JPG.rf.ccbf2fd7c690ec4c399fab4c193725a6.jpg",
+      "key_gt": [
+        "ponytails",
+        "puff"
+      ],
+      "base_gt": [],
+      "key_pred": [
+        "puff"
+      ],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3479.7
+    },
+    {
+      "filename": "false_22567642117-c-us_39D1B9FDC19160F4CE9E077CA1144428_jpeg.rf.801f6f2ea3c9058daddd04ada37583db.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5914.4
+    },
+    {
+      "filename": "false_22567642117-c-us_3E65F7259849731450B2EF7625B8A8F4_jpeg.rf.381875748ae4ac2b27ede99ef8e90e11.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7562.3
+    },
+    {
+      "filename": "IMG_3077_JPG.rf.deaa54673c2774c4f50e4bcf17b4fc71.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5516.8
+    },
+    {
+      "filename": "IMG_0142_JPG.rf.4b41905f265978505c170788f18ec401.jpg",
+      "key_gt": [
+        "space_buns",
+        "mini_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "flat_twist",
+        "mini_twists",
+        "space_buns"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5703.0
+    },
+    {
+      "filename": "false_22507073261-c-us_3ADC2A7579D739E00EEA_jpeg.rf.f6d1250541bbf848d9be8edb0a962385.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 9179.0
+    },
+    {
+      "filename": "false_22584279901-c-us_1BE4F3AE5CA84758B67354EB30C35DCD_jpeg.rf.96e89915fceb8315e0d6a180fcdfd4f1.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4641.6
+    },
+    {
+      "filename": "IMG_5136_PNG.rf.12e962300256e9800de195f06d845b44.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5887.3
+    },
+    {
+      "filename": "true_22509090600-c-us_4DBA76429CA8FC38D760E428AAC53BA4_jpeg.rf.ceab9210c68de36f235577961b9a61fe.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7720.6
+    },
+    {
+      "filename": "IMG_3874_PNG.rf.4138da5ecdd1e45759d583386d240406.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5532.5
+    },
+    {
+      "filename": "Soft-Locs-36_-22-_png.rf.cbdaf4ef2dade2e53969309ab8ed7b15.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids",
+        "fulani_braids"
+      ],
+      "base_pred": [
+        "braids",
+        "cornrows"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7897.0
+    },
+    {
+      "filename": "true_22557290500-c-us_2F50690CFB29BA3372EDA43EAE49DE6E_jpeg.rf.891f78b157a12bbace93a6936de72924.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "crochet",
+        "twist"
+      ],
+      "key_pred": [],
+      "base_pred": [],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7919.2
+    },
+    {
+      "filename": "IMG_3585_PNG.rf.8e83b5a1d60db30177a07659707b17dc.jpg",
+      "key_gt": [
+        "soft_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "cornrows",
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7773.6
+    },
+    {
+      "filename": "false_22547397956-c-us_2DA21892B3380F7B76E3BE5A326BD6D2_jpeg.rf.04fc38855b7f33da8cfc29e5590e5500.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3582.1
+    },
+    {
+      "filename": "false_22508084858-c-us_CA96B6E97857AEBB81C20C195387DF61_jpeg.rf.abba78dc6ab4405bc6cf485998cfcf8a.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7008.9
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A0F785202FECF61F740_2250703785556-c-us_jpeg.rf.d1ee7c1564ae5ea7093cfa21af3d5506.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4909.7
+    },
+    {
+      "filename": "IMG_6179_JPG.rf.9078d75a47f02e96cdc3d3a03d50bbcc.jpg",
+      "key_gt": [
+        "passion_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7613.4
+    },
+    {
+      "filename": "false_22567642117-c-us_B57F99CA065EE172870A998927008213_jpeg.rf.310125b4911cd08df53a2d7781ffe9ea.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 7915.1
+    },
+    {
+      "filename": "false_22575965413-c-us_CB63D925384ED645042E163C26742101_jpeg.rf.c1e8e24184c168c71d45ef2e406f4d0f.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "marley_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4621.5
+    },
+    {
+      "filename": "IMG_8197_JPG.rf.ee556d9c9d8dd49be20a6c988bbd86d5.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4415.7
+    },
+    {
+      "filename": "false_22578984381-c-us_3EB021769299A27B5998B4_jpeg.rf.8a0738e45287308a6b1e5d08f75d78ae.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "microlocs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3645.4
+    },
+    {
+      "filename": "Soft-Locs-36_-9-_png.rf.93eb4061bcd32a703f98573dad8ae4b1.jpg",
+      "key_gt": [
+        "boho",
+        "box_braids"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 3557.9
+    },
+    {
+      "filename": "false_22577345724-c-us_3A9774C2A64D26310AFF_jpeg.rf.a7eba75944bf6b508dadf78efd932869.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4995.5
+    },
+    {
+      "filename": "true_22507288132-c-us_4780033FBA5057907888717BED0BB1B5_jpeg.rf.f9c3aa4568616704b212230b576b077c.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4030.8
+    },
+    {
+      "filename": "true_22578984381-c-us_9DB0C602900FDA3E8FD2C2CE05D2D904_jpeg.rf.55871a9263808e3a5bea68aa56243127.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 6928.9
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A5AB13EC52FBDEA8BD5_2250703785556-c-us_jpeg.rf.c90ec91247caad4dde565454ca7b22f7.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs",
+        "ponytails"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8331.2
+    },
+    {
+      "filename": "false_22557888258-c-us_AF3C4C5BC3F0689729F8E93604172352_jpeg.rf.678f3f848f5531e7063c2a898bc4d0be.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "faux_locs",
+        "soft_locs",
+        "ponytails"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4606.6
+    },
+    {
+      "filename": "false_120363026486542664-g-us_3A8768915D1AB4E809C4_2250703785556-c-us_jpeg.rf.20f82680799c7fe28de6d0e005bcfc9b.jpg",
+      "key_gt": [
+        "faux_locs"
+      ],
+      "base_gt": [
+        "locs"
+      ],
+      "key_pred": [
+        "boho",
+        "faux_locs",
+        "soft_locs"
+      ],
+      "base_pred": [
+        "locs"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5836.0
+    },
+    {
+      "filename": "IMG_0473_PNG.rf.2b1e63436649ae9f7ebbdbb6c96c4e7c.jpg",
+      "key_gt": [],
+      "base_gt": [
+        "braids",
+        "twist"
+      ],
+      "key_pred": [
+        "mini_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 8218.7
+    },
+    {
+      "filename": "9F777AAC-ACE7-4D59-AE80-2A7D48BBCDD1_jpg.rf.5f3f91c5c41d388d2de95e1ab96bcfc0.jpg",
+      "key_gt": [
+        "boho"
+      ],
+      "base_gt": [
+        "braids"
+      ],
+      "key_pred": [
+        "boho",
+        "box_braids"
+      ],
+      "base_pred": [
+        "braids"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 4420.0
+    },
+    {
+      "filename": "false_22507973992-c-us_F6D7CFB9BEFF681E3601DF1BE3019ED9_jpeg.rf.67250db845d08216177304d6add0665d.jpg",
+      "key_gt": [
+        "marley_twists"
+      ],
+      "base_gt": [
+        "twist"
+      ],
+      "key_pred": [
+        "passion_twists"
+      ],
+      "base_pred": [
+        "twist"
+      ],
+      "key_probs": null,
+      "base_probs": null,
+      "latency_ms": 5685.3
+    }
+  ]
+}
