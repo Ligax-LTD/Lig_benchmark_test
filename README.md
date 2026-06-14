@@ -79,7 +79,7 @@ GOOGLE_API_KEY=<your Google API key>
 GOOGLE_MODEL=gemini-2.5-flash
 ```
 
-The Roboflow API key for this dataset is available from the dataset page at https://universe.roboflow.com/testing-workspace-htshl/woman-hairstyles-bevyz
+The Roboflow API key be obtained from Roboflow account settings at `app.roboflow.com/settings/api`.
 
 `LIG_VISION_URL` is intentionally omitted. Lig Vision results are pre-computed in `results/lig_vision.json`. The inference endpoint is not published; individual predictions can be verified at https://www.ligaxai.com/playground.
 
